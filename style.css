@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.day{
+    background-image: url('https://akm-img-a-in.tosshub.com/sites/weather/resources/image/bg/clear.jpg?size=910%E2%88%B6431');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 435vh;
+}
+
+.night{
+    background-image: url('https://cdn.pixabay.com/photo/2020/04/30/20/14/sky-5114501_1280.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    height: 435vh;
+}
+
+.container{
+    flex: 0 0 28%;
+    color: #fff;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.forecast{
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+    margin-top: 1rem;
+}
+
+.weather-card{
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.weather-card i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.weather-card p {
+    font-size: 14px;
+}
+
+.submit-button{
+    text-decoration: none;
+    color: lightyellow;
+}
+
+.submit-button:hover{
+    color: lightgreen;
+}
+
+.input-box{
+    width: 100%;
+}
